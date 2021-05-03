@@ -19,7 +19,7 @@ function preload(){
 
 function setup() {
 
-  var canvas = createCanvas(600,200);
+  var canvas = createCanvas(windowWidth,200);
   // Move the canvas so it’s inside our <div id="sketch-holder">.
   canvas.parent('sketch-holder');
   //create a trex 0
