@@ -7,4 +7,5 @@ canvas {
 }
 #sketch-holder{
   background: "pink";
+  width:100% !important;
 }
