@@ -19,9 +19,6 @@ function preload(){
 
 function setup() {
 
-  var canvas = createCanvas(windowWidth,200);
-  // Move the canvas so it’s inside our <div id="sketch-holder">.
-  canvas.parent('sketch-holder');
   //create a trex 0
   trex = createSprite(50,160,20,50);
   trex.addAnimation("running", trex_running);
